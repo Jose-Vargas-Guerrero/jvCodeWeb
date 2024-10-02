@@ -1,13 +1,9 @@
----
----
-
-
 
 <div class="heroContainer">
-    <span class="circle1"></span>
-    <span class="circle2"></span>
-    <span class="circle3"></span>
-    <span class="circle4"></span>
+        <span class="circle1"></span>
+        <span class="circle2"></span>
+        <span class="circle3"></span>
+        <span class="circle4"></span>
     <div class="fade">
         <h1>Transformamos tu idea en un <span>sitio web </span> web que hará crecer tu negocio</h1>
         <span class="space"></span>
@@ -21,26 +17,21 @@
 
 <style>
     .heroContainer{
-        height: 100vh;
+        height: auto;
         max-width: 100vw;
-        overflow: hidden;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .fade{
-        height: 100vh;
+        height: 120vh;
         max-width: 100vw;
+        padding-top: 13%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         z-index: 2;
         backdrop-filter: blur(20px);
-
+        overflow-y: hidden;
     }
 
     .fade > h1{
@@ -117,20 +108,20 @@
     }
 
     .circle2{
-        height: 600px;
-        width: 500px;
+        height: 350px;
+        width: 350px;
         background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
         border-radius: 50%;
         z-index: -2;
         position: absolute;
-        bottom: -200px;
+        bottom: -100px;
         left: 200px;
         opacity: 0.3;
         animation: light 6s ease-in-out infinite alternate-reverse;
     }
 
     .circle3{
-        height: 450px;
+        height: 350px;
         width: 450px;
         background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
         border-radius: 50%;
@@ -143,8 +134,8 @@
     }
 
     .circle4{
-        height: 450px;
-        width: 450px;
+        height: 350px;
+        width: 350px;
         background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
         border-radius: 50%;
         z-index: -3;
