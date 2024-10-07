@@ -5,7 +5,7 @@
         <span class="circle3"></span>
         <span class="circle4"></span>
     <div class="fade">
-        <h1>Transformamos tu idea en un <span>sitio web </span> web que hará crecer tu negocio</h1>
+        <h1>Transformamos tu idea en un <span>sitio web </span> que hará crecer tu negocio</h1>
         <span class="space"></span>
         <div class="buttons">
             <a href="#history" class="descubrir">Descubrir</a>
@@ -145,5 +145,456 @@
         opacity: 0.3;
         animation: light 6s ease-in-out infinite alternate-reverse;
     }
+
+
+    /* media querys */
+    @media (max-width: 576px) {
+        .heroContainer{
+        height: auto;
+        max-width: 100vw;
+    }
+
+    .fade{
+        height: 120vh;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50%;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .fade > h1{
+        color: var(--lightWhite);
+        font-size: 2.2rem;
+        width: 100%;
+        text-align: center;
+        padding: 0 0.5rem;
+
+    }
+
+    .fade > h1 > span{
+        color: var(--skyBlue);
+        z-index: 2;
+    }
+
+    .buttons{
+        height: auto;
+        width: auto;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons > a{
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+    }
+
+    .descubrir{
+        margin-right: 3rem;
+        background-color: var(--skyBlue);
+        color: var(--darkBlue);
+    }
+
+    .contactar{
+        outline: solid 3px var(--skyBlue);
+        color: var(--skyBlue);
+    }
+
+    .circle1{
+        height: 300px;
+        width: 200px;
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        left: -0px;
+        top: -180px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle2{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -2;
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle3{
+        height: 150px;
+        width: 150px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle4{
+        height: 150px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+    }
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        .heroContainer{
+        height: auto;
+        max-width: 100vw;
+    }
+
+    .fade{
+        height: 120vh;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .fade > h1{
+        color: var(--lightWhite);
+        font-size: 2.8rem;
+        width: 100%;
+        text-align: center;
+        padding: 0 0.5rem;
+
+    }
+
+    .fade > h1 > span{
+        color: var(--skyBlue);
+        z-index: 2;
+    }
+
+    .buttons{
+        height: auto;
+        width: auto;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons > a{
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+    }
+
+    .descubrir{
+        margin-right: 3rem;
+        background-color: var(--skyBlue);
+        color: var(--darkBlue);
+    }
+
+    .contactar{
+        outline: solid 3px var(--skyBlue);
+        color: var(--skyBlue);
+    }
+
+    .circle1{
+        height: 300px;
+        width: 200px;
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        left: -0px;
+        top: -180px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle2{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -2;
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle3{
+        height: 150px;
+        width: 150px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle4{
+        height: 150px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+        .heroContainer{
+        height: auto;
+        max-width: 100vw;
+    }
+
+    .fade{
+        height: 120vh;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .fade > h1{
+        color: var(--lightWhite);
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        padding: 0 2rem;
+
+    }
+
+    .fade > h1 > span{
+        color: var(--skyBlue);
+        z-index: 2;
+    }
+
+    .buttons{
+        height: auto;
+        width: auto;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons > a{
+        font-size: 1.5      rem;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+    }
+
+    .descubrir{
+        margin-right: 3rem;
+        background-color: var(--skyBlue);
+        color: var(--darkBlue);
+    }
+
+    .contactar{
+        outline: solid 3px var(--skyBlue);
+        color: var(--skyBlue);
+    }
+
+    .circle1{
+        height: 300px;
+        width: 200px;
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        left: -0px;
+        top: -180px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle2{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -2;
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle3{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle4{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .heroContainer{
+        height: auto;
+        max-width: 100vw;
+    }
+
+    .fade{
+        height: 120vh;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .fade > h1{
+        color: var(--lightWhite);
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        padding: 0 2rem;
+
+    }
+
+    .fade > h1 > span{
+        color: var(--skyBlue);
+        z-index: 2;
+    }
+
+    .buttons{
+        height: auto;
+        width: auto;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons > a{
+        font-size: 1.5      rem;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.4rem 1rem;
+        border-radius: 6px;
+    }
+
+    .descubrir{
+        margin-right: 3rem;
+        background-color: var(--skyBlue);
+        color: var(--darkBlue);
+    }
+
+    .contactar{
+        outline: solid 3px var(--skyBlue);
+        color: var(--skyBlue);
+    }
+
+    .circle1{
+        height: 300px;
+        width: 200px;
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+        left: -0px;
+        top: -180px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle2{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -2;
+        position: absolute;
+        bottom: 0px;
+        left: -100px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle3{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 5s ease-in-out infinite alternate-reverse;
+    }
+
+    .circle4{
+        height: 250px;
+        width: 250px;
+        background-image: radial-gradient(circle, rgba(92, 225, 230, 0.6), rgba(92, 225, 230, 0));
+        border-radius: 50%;
+        z-index: -3;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        opacity: 0.3;
+        animation: light 6s ease-in-out infinite alternate-reverse;
+    }
+}
+
+
+
+
+
     
 </style>
