@@ -13,8 +13,8 @@
 
 .email, .nombre{
     border: none;
-    background-color: rgba(253, 255, 252, 0.2);    border-radius: 5px;
-    -webkit-text-fill-color: #FDFFFC;
+    background-color: rgba(253, 255, 252, 0.2);
+    border-radius: 5px;
     width: 100%;
     font-size: 1.3rem;
     margin: 1rem 0;
@@ -67,7 +67,9 @@
     
     .email, .nombre{
         border: none;
-        background-color: rgba(253, 255, 252, 0.2);    border-radius: 5px;
+        color:red;
+        background-color: rgba(253, 255, 252, 0.2);
+        border-radius: 5px;
         -webkit-text-fill-color: #FDFFFC;
         width: 100%;
         font-size: 1.3rem;
