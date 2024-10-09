@@ -434,4 +434,49 @@
       text-align: center;
     }
   }
+
+  @media (min-width: 993px) and (max-width: 1300px) {
+
+    .cardsContainer {
+    margin: 2rem 0;
+    height: 80vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card {
+    height: 400px;
+    width: 330px;
+    outline: solid var(--skyBlue) 2px;
+    border-radius: 8px;
+    padding: 3rem 0;
+    transition: all ease 0.2s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card > h2 {
+    color: var(--lightWhite);
+    font-size: 2.5rem;
+  }
+
+  .icon {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .card > p {
+    color: var(--lightWhite);
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  }
 </style>
