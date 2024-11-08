@@ -1,0 +1,151 @@
+---
+import { Image } from "astro:assets";
+
+
+import demo1 from '/public/demo1.png';
+import demo2 from '/public/demo2.png';
+import demo3 from '/public/demo3.png';
+---
+
+
+
+
+<div class="introContainer">
+    <h2>
+        En JV CODE creamos sitios web optimizados para fortalecer la imagen de su empresa y alcanzar sus objetivos de negocio.
+    </h2>
+    <div class="introBox">
+        <div class="introIMG">
+            <Image loading="lazy" class="inimg" src={demo1} alt="Vista de ejemplo de sitio web en pantalla de computadora de escritorio"/>
+        </div>
+        <div class="introIMG">
+        <Image class="inimg" loading="lazy" src={demo2} alt="Vista de ejemplo de sitio web en pantalla de computadora portatil"/>
+        </div>
+        <div class="introIMG">
+        <Image class="inimg" loading="lazy" src={demo3} alt="Vista de ejemplo de sitio web en pantalla de celular"/>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .introContainer{
+        height: auto;
+        max-width: 100vw;
+        padding: 0 4rem;
+        margin: 200px 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introContainer > h2{
+        width: 80%;
+        color: var(--skyBlue);
+        font-size: 2.5rem;
+        margin: 0 0 4rem 0;
+        text-align: center;
+    }
+
+    .introBox{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .introIMG{
+        height: 300px;
+        width: auto;
+    }
+
+    .inimg{
+        height: 100%;
+        width: 100%;
+    }
+
+
+    @media (max-width: 576px) {
+        .introContainer{
+        height: auto;
+        max-width: 100vw;
+        padding: 0 1rem;
+    }
+
+    .introContainer > h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .introBox{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introIMG{
+        height: 200px;
+        width: auto;
+    }
+    }
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        .introContainer{
+        height: auto;
+        max-width: 100vw;
+        padding: 0 1rem;
+    }
+
+    .introContainer > h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .introBox{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introIMG{
+        height: 200px;
+        width: auto;
+    }
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+        .introContainer{
+        height: auto;
+        max-width: 100vw;
+        padding: 0 3rem;
+    }
+
+    .introContainer > h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .introBox{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introIMG{
+        height: 200px;
+        width: auto;
+    }
+    }
+
+    
+</style>
